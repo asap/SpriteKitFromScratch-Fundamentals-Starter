@@ -9,7 +9,7 @@
 import UIKit
 
 enum ButtonDirection: Int {
-    case Left = 0, Right = 1
+    case left = 0, right = 1
 }
 
 class ViewController: UIViewController {
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func didPressButton(sender: UIButton) {
+    @IBAction func didPressButton(_ sender: UIButton) {
         
     }
     
